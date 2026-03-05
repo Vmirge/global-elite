@@ -33,49 +33,49 @@ React.useEffect(() => {
     { 
       name: "Onion Powder", 
       cat: "Dehydrated Ingredients", 
-      img: "/onion powder.PNG", // Ensure this file is in your public folder
+      img: "/onion powder.png", // Ensure this file is in your public folder
       description: "Premium dehydrated Red Globe onion powder. Processed to maintain high pungency and natural flavor profile.",
       specs: { "Origin": "Maharashtra", "Moisture": "5% Max", "Grade": "Premium A", "Shelf Life": "12 Months" }
     },
     { 
       name: "Ginger Powder", 
       cat: "Dehydrated Ingredients", 
-      img: "/ginger powder.PNG", 
+      img: "/ginger powder.png", 
       description: "Aromatic and sharp Ginger powder sourced from the fertile lands of Kerala. Fiberless and 100% natural.",
       specs: { "Origin": "Kerala, India", "Moisture": "7% Max", "Grade": "Bold Export", "Shelf Life": "18 Months" }
     },
     { 
       name: "Garlic Powder", 
       cat: "Dehydrated Ingredients", 
-      img: "/garlic powder.PNG", 
+      img: "/garlic powder.png", 
       description: "Strongly pungent Garlic powder, ideal for industrial food seasoning and gourmet cooking.",
       specs: { "Origin": "Gujarat, India", "Moisture": "6% Max", "Grade": "High Pungency", "Shelf Life": "12 Months" }
     },
     { 
       name: "Banana Powder", 
       cat: "Fruit Powders", 
-      img: "/banana powder.PNG", 
+      img: "/banana powder.png", 
       description: "Natural Banana powder made from ripe Cavendish bananas. Excellent for health supplements.",
       specs: { "Origin": "Tamil Nadu", "Moisture": "5% Max", "Grade": "Pure Natural", "Shelf Life": "9 Months" }
     },
     { 
       name: "Moringa Powder", 
       cat: "Organic Superfoods", 
-      img: "/moringa powder.PNG", 
+      img: "/moringa powder.png", 
       description: "Nutrient-dense 100% Organic Moringa leaf powder. Shadow-dried to preserve vibrant quality.",
       specs: { "Origin": "Rajasthan", "Purity": "100% Organic", "Moisture": "8% Max", "Shelf Life": "24 Months" }
     },
     { 
       name: "Beetroot Powder", 
       cat: "Health & Wellness", 
-      img: "/beetroot powder.PNG", 
+      img: "/beetroot powder.png", 
       description: "Vibrant and nutrient-rich Beetroot powder. Perfect for natural food coloring and supplements.",
       specs: { "Origin": "Maharashtra", "Moisture": "6% Max", "Grade": "A Grade", "Shelf Life": "12 Months" }
     },
     { 
       name: "Bottle Gourd Powder", 
       cat: "Health & Wellness", 
-      img: "/Bottle Guard Powder.PNG", 
+      img: "/Bottle Guard Powder.png", 
       description: "Premium Bottle Gourd (Lauki) powder. Highly valued for its cooling properties and dietary benefits.",
       specs: { "Origin": "Maharashtra", "Moisture": "7% Max", "Purity": "100% Pure", "Shelf Life": "12 Months" }
     }
@@ -152,7 +152,7 @@ React.useEffect(() => {
       {/* --- NAVIGATION --- */}
       <nav className="fixed w-full top-0 bg-white/95 backdrop-blur-md z-50 border-b border-gray-100 px-8 md:px-16 py-2 flex justify-between items-center shadow-sm">
         <div className="cursor-pointer" onClick={() => setView('home')}>
-          <img src="/logooo.JPEG" alt="Ayra Logo" className="h-24 md:h-28 w-auto object-contain" />
+          <img src="/logooo.jpeg" alt="Ayra Logo" className="h-24 md:h-28 w-auto object-contain" />
         </div>
         <div className="hidden md:flex gap-10 text-[10px] font-bold uppercase tracking-[0.2em] items-center text-[#002B5B]">
           <button onClick={() => setView('home')} className="hover:text-[#C5A059] transition-all">Home</button>
@@ -179,7 +179,7 @@ React.useEffect(() => {
                 </motion.div>
                 <motion.div initial={{ scale: 0.9, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.8 }} className="hidden lg:block relative group">
                   <div className="absolute -top-6 -right-6 w-32 h-32 border-t-2 border-r-2 border-[#C5A059] z-0" /><div className="relative border-[12px] border-white shadow-2xl rounded-sm overflow-hidden bg-white">
-                    <img src="/heroo.JPEG" alt="Hero" className="w-full h-auto max-h-[550px] object-contain block mx-auto transition-transform duration-[2000ms] group-hover:scale-105" />
+                    <img src="/heroo.jpeg" alt="Hero" className="w-full h-auto max-h-[550px] object-contain block mx-auto transition-transform duration-[2000ms] group-hover:scale-105" />
                   </div><div className="absolute -bottom-6 -left-6 w-32 h-32 border-b-2 border-l-2 border-[#C5A059] z-0" />
                 </motion.div>
               </div>
@@ -220,7 +220,7 @@ React.useEffect(() => {
               <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-24 items-center">
                 <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="relative group">
                   <div className="absolute -top-6 -right-6 w-32 h-32 border-t-2 border-r-2 border-[#C5A059] z-0" /><div className="relative border-[15px] border-white shadow-2xl overflow-hidden rounded-sm bg-white">
-                    <img src="/about us.JPG" className="w-full h-auto max-h-[600px] object-contain transition-transform duration-1000 group-hover:scale-105" alt="About" />
+                    <img src="/about us.jpg" className="w-full h-auto max-h-[600px] object-contain transition-transform duration-1000 group-hover:scale-105" alt="About" />
                   </div><div className="absolute -bottom-6 -left-6 w-32 h-32 border-b-2 border-l-2 border-[#C5A059] z-0" />
                 </motion.div>
                 <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
