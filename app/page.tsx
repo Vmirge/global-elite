@@ -190,7 +190,7 @@ React.useEffect(() => {
               <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16"><h4 className="text-[#C5A059] font-bold uppercase tracking-[0.4em] text-[10px] mb-4">The Elite Selection</h4><h2 className="text-4xl font-serif text-[#002B5B]">Shop by Collection</h2></div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                  {[{ name: "Dehydrated Ingredients", img: "/ginger powder.PNG", desc: "Ginger & Garlic" }, { name: "Fruit Powders", img: "/banana powder.PNG", desc: "Banana Powder" }, { name: "Organic Superfoods", img: "/moringa powder.PNG", desc: "Moringa Powder" }, { name: "Health & Wellness", img: "/beetroot powder.PNG", desc: "Beetroot & Bottle Gourd" }].map((cat, i) => (
+                  {[{ name: "Dehydrated Ingredients", img: "/ginger powder.png", desc: "Ginger & Garlic" }, { name: "Fruit Powders", img: "/banana powder.png", desc: "Banana Powder" }, { name: "Organic Superfoods", img: "/moringa powder.png", desc: "Moringa Powder" }, { name: "Health & Wellness", img: "/beetroot powder.png", desc: "Beetroot & Bottle Gourd" }].map((cat, i) => (
                     <motion.div key={i} onClick={() => setView('products')} whileHover={{ y: -10 }} className="relative h-[450px] group overflow-hidden cursor-pointer shadow-xl rounded-sm border border-gray-100">
                       <img src={cat.img} className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt={cat.name} />
                       <div className="absolute inset-0 bg-gradient-to-t from-[#002B5B]/90 via-[#002B5B]/20 to-transparent" />
@@ -623,7 +623,7 @@ React.useEffect(() => {
   <div className="max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-5 gap-12">
     {/* Column 1: Brand Info */}
     <div className="lg:col-span-2">
-      <img src="/logooo.JPEG" className="h-24 mb-6 bg-white p-2 rounded-sm" alt="Ayra Global Elite Logo" />
+      <img src="/logooo.jpeg" className="h-24 mb-6 bg-white p-2 rounded-sm" alt="Ayra Global Elite Logo" />
       <p className="text-xs text-gray-400 leading-relaxed max-w-sm">
         Global merchant exporter of premium dehydrated ingredients. Connecting the world to Indian agricultural excellence.
       </p>
