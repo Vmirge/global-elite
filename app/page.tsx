@@ -40,42 +40,42 @@ React.useEffect(() => {
     { 
       name: "Ginger Powder", 
       cat: "Dehydrated Ingredients", 
-      img: "/ginger powder.png", 
+      img: "/ginger powder.PNG", 
       description: "Aromatic and sharp Ginger powder sourced from the fertile lands of Kerala. Fiberless and 100% natural.",
       specs: { "Origin": "Kerala, India", "Moisture": "7% Max", "Grade": "Bold Export", "Shelf Life": "18 Months" }
     },
     { 
       name: "Garlic Powder", 
       cat: "Dehydrated Ingredients", 
-      img: "/garlic powder.png", 
+      img: "/garlic powder.PNG", 
       description: "Strongly pungent Garlic powder, ideal for industrial food seasoning and gourmet cooking.",
       specs: { "Origin": "Gujarat, India", "Moisture": "6% Max", "Grade": "High Pungency", "Shelf Life": "12 Months" }
     },
     { 
       name: "Banana Powder", 
       cat: "Fruit Powders", 
-      img: "/banana powder.png", 
+      img: "/banana powder.PNG", 
       description: "Natural Banana powder made from ripe Cavendish bananas. Excellent for health supplements.",
       specs: { "Origin": "Tamil Nadu", "Moisture": "5% Max", "Grade": "Pure Natural", "Shelf Life": "9 Months" }
     },
     { 
       name: "Moringa Powder", 
       cat: "Organic Superfoods", 
-      img: "/moringa powder.png", 
+      img: "/moringa powder.PNG", 
       description: "Nutrient-dense 100% Organic Moringa leaf powder. Shadow-dried to preserve vibrant quality.",
       specs: { "Origin": "Rajasthan", "Purity": "100% Organic", "Moisture": "8% Max", "Shelf Life": "24 Months" }
     },
     { 
       name: "Beetroot Powder", 
       cat: "Health & Wellness", 
-      img: "/beetroot powder.png", 
+      img: "/beetroot powder.PNG", 
       description: "Vibrant and nutrient-rich Beetroot powder. Perfect for natural food coloring and supplements.",
       specs: { "Origin": "Maharashtra", "Moisture": "6% Max", "Grade": "A Grade", "Shelf Life": "12 Months" }
     },
     { 
       name: "Bottle Gourd Powder", 
       cat: "Health & Wellness", 
-      img: "/Bottle Guard Powder.png", 
+      img: "/Bottle Guard Powder.PNG", 
       description: "Premium Bottle Gourd (Lauki) powder. Highly valued for its cooling properties and dietary benefits.",
       specs: { "Origin": "Maharashtra", "Moisture": "7% Max", "Purity": "100% Pure", "Shelf Life": "12 Months" }
     }
@@ -190,7 +190,7 @@ React.useEffect(() => {
               <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16"><h4 className="text-[#C5A059] font-bold uppercase tracking-[0.4em] text-[10px] mb-4">The Elite Selection</h4><h2 className="text-4xl font-serif text-[#002B5B]">Shop by Collection</h2></div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                  {[{ name: "Dehydrated Ingredients", img: "/ginger powder.png", desc: "Ginger & Garlic" }, { name: "Fruit Powders", img: "/banana powder.png", desc: "Banana Powder" }, { name: "Organic Superfoods", img: "/moringa powder.png", desc: "Moringa Powder" }, { name: "Health & Wellness", img: "/beetroot powder.png", desc: "Beetroot & Bottle Gourd" }].map((cat, i) => (
+                  {[{ name: "Dehydrated Ingredients", img: "/ginger powder.PNG", desc: "Ginger & Garlic" }, { name: "Fruit Powders", img: "/banana powder.PNG", desc: "Banana Powder" }, { name: "Organic Superfoods", img: "/moringa powder.PNG", desc: "Moringa Powder" }, { name: "Health & Wellness", img: "/beetroot powder.PNG", desc: "Beetroot & Bottle Gourd" }].map((cat, i) => (
                     <motion.div key={i} onClick={() => setView('products')} whileHover={{ y: -10 }} className="relative h-[450px] group overflow-hidden cursor-pointer shadow-xl rounded-sm border border-gray-100">
                       <img src={cat.img} className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" alt={cat.name} />
                       <div className="absolute inset-0 bg-gradient-to-t from-[#002B5B]/90 via-[#002B5B]/20 to-transparent" />
