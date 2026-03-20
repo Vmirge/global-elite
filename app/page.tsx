@@ -33,7 +33,7 @@ React.useEffect(() => {
     { 
       name: "Onion Powder", 
       cat: "Dehydrated Ingredients", 
-      img: "/onion powder.png", // Ensure this file is in your public folder
+      img: "/onion powder.PNG", // Ensure this file is in your public folder
       description: "Premium dehydrated Red Globe onion powder. Processed to maintain high pungency and natural flavor profile.",
       specs: { "Origin": "Maharashtra", "Moisture": "5% Max", "Grade": "Premium A", "Shelf Life": "12 Months" }
     },
