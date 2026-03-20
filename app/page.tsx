@@ -298,7 +298,7 @@ React.useEffect(() => {
   <motion.div key="admin-login" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="min-h-screen fixed inset-0 z-[150] flex items-center justify-center bg-[#FDFDFD]">
     <div className="w-full max-w-sm px-8">
       <div className="text-center mb-12">
-        <img src="/logooo.JPEG" className="h-16 mx-auto mb-8 grayscale hover:grayscale-0 transition-all duration-700" alt="Logo" />
+        <img src="/logooo.jpeg" className="h-16 mx-auto mb-8 grayscale hover:grayscale-0 transition-all duration-700" alt="Logo" />
         <h2 className="text-[10px] font-bold tracking-[0.5em] text-[#C5A059] uppercase">LOGIN</h2>
       </div>
       <div className="space-y-8">
@@ -326,7 +326,7 @@ React.useEffect(() => {
           <motion.div key="admin-dash" initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex h-screen bg-gray-50 overflow-hidden fixed inset-0 z-[200]">
             <aside className="w-80 bg-white border-r border-gray-100 flex flex-col p-10 z-[200]">
   <div className="mb-20">
-    <img src="/logooo.JPEG" className="h-12 mb-6" alt="Logo" />
+    <img src="/logooo.jpeg" className="h-12 mb-6" alt="Logo" />
     <div className="h-[1px] w-12 bg-[#C5A059]" />
   </div>
 
