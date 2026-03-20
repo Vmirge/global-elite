@@ -666,11 +666,6 @@ React.useEffect(() => {
   </div>
 
   {/* Pune Office Info (Repositioned for 5-column layout balance) */}
-  <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-white/10 grid md:grid-cols-3 gap-8 text-xs text-gray-400">
-    <p className="flex items-center gap-2"><MapPin size={14} className="text-[#C5A059]"/> Keshavnagar, Mundhwa, Pune - 411036</p>
-    <p className="flex items-center gap-2"><Phone size={14} className="text-[#C5A059]"/> +91 87667 95070</p>
-    <p className="flex items-center gap-2"><Mail size={14} className="text-[#C5A059]"/> info.ayraglobalelite@gmail.com</p>
-  </div>
 
   <div className="max-w-7xl mx-auto mt-8 text-center text-gray-500">
     <p className="text-[10px] tracking-[0.4em] uppercase">© 2026 Ayra Global Elite | Merchant Exporters | Pune, India</p>
